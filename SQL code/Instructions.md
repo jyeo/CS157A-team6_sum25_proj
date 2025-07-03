@@ -1,5 +1,5 @@
 # Instructions
-This is the main file for our SQL code that will be using JAVA with whatever IDE.
+This is the main file for our SQL code that will be using JAVA with most IDE.
 
 We have to make sure anyone, regardless of OS, will be able to use any code within this project.
 
