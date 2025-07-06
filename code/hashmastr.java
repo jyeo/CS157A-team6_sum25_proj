@@ -8,6 +8,10 @@ https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 
 https://github.com/bcgit/bc-java/blob/main/core/src/main/java/org/bouncycastle/crypto/generators/SCrypt.java
 
+https://security.stackexchange.com/questions/133239/what-is-the-specific-reason-to-prefer-bcrypt-or-pbkdf2-over-sha256-crypt-in-pass
+
+https://cryptobook.nakov.com/mac-and-key-derivation/scrypt
+
 https://www.baeldung.com/java-secure-random
 https://www.baeldung.com/java-base64-encode-and-decode
 https://docs.oracle.com/javase/8/docs/api/java/util/Base64.html
