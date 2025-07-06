@@ -15,8 +15,10 @@ Committed to:
 
 2) Thel Nu
 Committed to:
-    * asdf
-    * asdf
+    * dog
+    *rate(relationship)
+    *favorite (relationship)
+    *communications
 
 3) Madhav
 Committed to:
