@@ -19,6 +19,8 @@ Committed to:
     *rate(relationship)
     *favorite (relationship)
     *communications
+    *walker
+    *owner
 
 3) Madhav
 Committed to:

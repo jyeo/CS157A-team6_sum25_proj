@@ -1,3 +1,4 @@
+USE Paw_Caelum;
 CREATE TABLE COMMUNICATIONS(
     Communication_ID INT AUTO_INCREMENT PRIMARY KEY,
     Content TEXT NOT NULL,
@@ -9,14 +10,14 @@ CREATE TABLE COMMUNICATIONS(
     FOREIGN KEY(Sender) REFERENCES User(User_id),
     FOREIGN KEY(Receiver) REFERENCES User(User_id)
 );
-INSERT INTO COMMUNICATIONS(Content, Type, Text_Status, sent_at, Sender, Receiver) VALUES
-('Hi, are you available to walk my dog tomorrow?', 'TEXT', 101, 201, 'sent'),
-('Yes, what time are you thinking?', 'TEXT', 201, 101, 'sent'),
-('8 AM would be great!', 'TEXT', 101, 201, 'delivered'),
-('Sure, I will be there at 8.', 'TEXT', 201, 101, 'read'),
-('Sending you a picture of Buddy!', 'TEXT', 101, 201, 'sent'),
-('code/images/playing.jpg', 'IMAGE', 101, 201, 'delivered'),
-('Looks happy! I''ll take good care of him.', 'TEXT', 201, 101, 'read'),
-('Can you send me a quick video of the walk?', 'TEXT', 101, 201, 'sent'),
-('code/images/happyplaying.mp4', 'VIDEO', 201, 101, 'delivered'),
-('Thanks! Looks like he had fun.', 'TEXT', 101, 201, 'read');
+INSERT INTO COMMUNICATIONS(Content, Type, Text_Status, Sender, Receiver) VALUES
+('Hi, are you available to walk my dog tomorrow?', 'TEXT', 'sent', 1, 2),
+('Yes, what time are you thinking?', 'TEXT', 'sent', 2, 1),
+('8 AM would be great!', 'TEXT', 'delivered', 1, 2),
+('Sure, I will be there at 8.', 'TEXT', 'read', 2, 1),
+('Sending you a picture of Buddy!', 'TEXT', 'sent', 1, 2),
+('code/images/swimming.jpg', 'IMAGE', 'delivered', 1, 2),
+('Looks happy! I''ll take good care of him.', 'TEXT', 'read', 2, 1),
+('Can you send me a quick video of the walk?', 'TEXT', 'sent', 1, 2),
+('code/images/happyplaying.mp4', 'VIDEO', 'delivered', 2, 1),
+('Thanks! Looks like he had fun.', 'TEXT', 'read', 1, 2);

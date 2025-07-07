@@ -1,3 +1,4 @@
+USE Paw_Caelum;
 CREATE TABLE OWNER_WALKER_RATING(
     rating_ID INT AUTO_INCREMENT PRIMARY KEY,
     Owner_id INT NOT NULL,
@@ -9,13 +10,15 @@ CREATE TABLE OWNER_WALKER_RATING(
 );
 INSERT INTO OWNER_WALKER_RATING (Owner_id, Walker_id, Comment, RatingScore)
 VALUES
-(101, 201, 'Very friendly and on time!', 5),
-(102, 202, 'Good walk but arrived late.', 4),
-(103, 201, 'Took great care of my dog.', 5),
-(104, 203, 'Dog came back happy and tired.', 5),
-(105, 204, 'Responsive and reliable.', 4),
-(106, 202, 'Did not follow instructions properly.', 2),
-(107, 205, 'Great communication and updates.', 5),
-(108, 204, 'My dog didn’t seem happy after walk.', 3),
-(109, 203, 'Very patient with my anxious dog.', 5),
-(110, 205, 'Did a decent job overall.', 4);
+(1, 2, 'Very friendly and on time!', 5),
+(3, 2, 'Good walk but arrived late.', 4),
+(5, 4, 'Took great care of my dog.', 5),
+(7, 8, 'Dog came back happy and tired.', 5),
+(9, 6, 'Responsive and reliable.', 4),
+(11, 4, 'Did not follow instructions properly.', 2),
+(13, 10, 'Great communication and updates.', 5),
+(15, 16, 'My dog didn’t seem happy after walk.', 3),
+(17, 18, 'Very patient with my anxious dog.', 5),
+(19, 12, 'Did a decent job overall.', 4);
+
+SELECT * FROM OWNER_WALKER_RATING;

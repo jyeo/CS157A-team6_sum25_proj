@@ -1,0 +1,21 @@
+USE Paw_Caelum;
+CREATE TABLE OWNER (
+    Owner_id INT PRIMARY KEY,
+    Phone VARCHAR(20),
+    FOREIGN KEY (Owner_id) REFERENCES User(User_id)
+);
+INSERT INTO OWNER (Owner_id, Phone)
+VALUES
+(1, '408-123-4567'),
+(3, '650-234-5678'),
+(5, '510-345-6789'),
+(7, '415-456-7890'),
+(9, '669-567-8901'),
+(11, '707-678-9012'),
+(13, '925-789-0123'),
+(15, '831-890-1234'),
+(17, '209-901-2345'),
+(19, '916-012-3456');
+
+SELECT * FROM OWNER;
+
