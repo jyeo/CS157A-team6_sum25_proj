@@ -1,0 +1,15 @@
+/*
+Use JAVA IDE for XML FILES
+
+Security_Suite DTD
+*/
+
+<!ELEMENT Security_Suite (security_ID, user_ID, birthday?, address?, email?, password_hash, salt, rw_ability)>
+<!ELEMENT security_ID (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password_hash (#PCDATA)>
+<!ELEMENT salt (#PCDATA)>
+<!ELEMENT rw_ability (#PCDATA)>

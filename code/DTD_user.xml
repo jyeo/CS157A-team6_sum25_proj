@@ -1,0 +1,14 @@
+/*
+Use JAVA IDE for XML FILES
+
+User DTD
+*/
+//Birthday Acceptable Formats: birthday accepts MM-DD-YYYY, DD-MM-YYYY, DD-Month-YYYY
+
+<!ELEMENT User (ID, name, birthday?, email?, address?, creation_date)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT bitrhday (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT creation_date (#PCDATA)>
