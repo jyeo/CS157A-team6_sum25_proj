@@ -5,13 +5,13 @@
 :*/
 
 CREATE TABLE Walk_History (
-    history_ID INT AUTO_INCREMENT PRIMARY KEY,
-    dog_ID INT NOT NULL,
-    walker_ID INT NOT NULL,
+    Walkhistory_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Dog_ID INT NOT NULL,
+    Walker_ID INT NOT NULL,
     completed_at DATETIME,
     distance_meters DECIMAL(6,2),
     distance_km DECIMAL(6,2),
     distance_miles DECIMAL(6,2),
-    FOREIGN KEY(dog_ID) REFERENCES Dogs(dog_ID),
-    FOREIGN KEY(walker_ID) REFERENCES User(ID)
+    FOREIGN KEY(Dog_ID) REFERENCES Dogs(Dog_ID),
+    FOREIGN KEY(Walker_ID) REFERENCES User(User_ID)
 );

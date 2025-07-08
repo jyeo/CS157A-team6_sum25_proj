@@ -1,6 +1,6 @@
 USE Paw_Caelum;
 CREATE TABLE Dogs(
-    Dog_Id INT AUTO_INCREMENT PRIMARY KEY,
+    Dog_ID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(50),
     Breed VARCHAR(50),
     Size ENUM('SMALL', 'MEDIUM', 'LARGE'),
@@ -8,7 +8,7 @@ CREATE TABLE Dogs(
     Basic_info VARCHAR(200),
     Photo VARCHAR(500),
     Owner_Id INT NOT NULL,
-    FOREIGN KEY (Owner_Id) REFERENCES User(User_id)
+    FOREIGN KEY (Owner_Id) REFERENCES User(User_ID)
 
 );
 INSERT INTO Dogs(Name, Breed, Size, Age, Basic_info, Photo, Owner_id) VALUES

@@ -1,10 +1,10 @@
 USE Paw_Caelum;
 CREATE TABLE OWNER (
-    Owner_id INT PRIMARY KEY,
+    Owner_ID INT PRIMARY KEY,
     Phone VARCHAR(20),
-    FOREIGN KEY (Owner_id) REFERENCES User(User_id)
+    FOREIGN KEY (Owner_ID) REFERENCES User(User_ID)
 );
-INSERT INTO OWNER (Owner_id, Phone)
+INSERT INTO OWNER (Owner_ID, Phone)
 VALUES
 (1, '408-123-4567'),
 (3, '650-234-5678'),

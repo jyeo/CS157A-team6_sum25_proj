@@ -7,7 +7,7 @@ CREATE TABLE COMMUNICATIONS(
     sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     Sender INT NOT NULL,
     Receiver INT NOT NULL,
-    FOREIGN KEY(Sender) REFERENCES User(User_id),
+    FOREIGN KEY(Sender) REFERENCES User(User_ID),
     FOREIGN KEY(Receiver) REFERENCES User(User_id)
 );
 INSERT INTO COMMUNICATIONS(Content, Type, Text_Status, Sender, Receiver) VALUES

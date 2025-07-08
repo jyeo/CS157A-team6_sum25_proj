@@ -1,8 +1,8 @@
 CREATE TABLE Admin(
-user_id INT PRIMARY KEY, password VARCHAR(45)
+User_ID INT PRIMARY KEY, password VARCHAR(45)
 );
 
-INSERT INTO Admin (user_id, password) VALUES
+INSERT INTO Admin (User_ID, password) VALUES
 (123, 'password1'),
 (321, 'password2'),
 (456, 'password3'),

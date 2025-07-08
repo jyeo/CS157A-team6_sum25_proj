@@ -1,6 +1,6 @@
 USE Paw_Caelum;
 CREATE TABLE User (
-    User_id INT AUTO_INCREMENT PRIMARY KEY,
+    User_ID INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     birthday DATE,
     email VARCHAR(255) UNIQUE,
