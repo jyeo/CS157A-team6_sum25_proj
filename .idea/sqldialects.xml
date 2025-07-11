@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/code/Admin_Table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Communications.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Dogs.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Favorite.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Owner.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Rating.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Security_Suite.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/User.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Walk_History.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Walk_Request.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/Walker.sql" dialect="MySQL" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+/*
+Use JAVA IDE for XML FILES
+
+Walk_Request DTD
+*/
+
+<!ELEMENT Walk_Request (request_ID, owner_ID, dog_ID, walker_ID?, status, price?, duration?, note?, created_at)>
+<!ELEMENT request_ID (#PCDATA)>
+<!ELEMENT owner_ID (#PCDATA)>
+<!ELEMENT dog_ID (#PCDATA)>
+<!ELEMENT walker_ID (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT created_at (#PCDATA)>
